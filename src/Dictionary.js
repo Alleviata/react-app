@@ -15,6 +15,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" autoFocus={true} onChange={changeWord} />
       </form>
+      <p>Looking for {word}</p>
     </div>
   );
 }
