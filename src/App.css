@@ -6,3 +6,31 @@
   font-size: calc(10px + 2vmin);
   color: #282c34;
 }
+
+h1 {
+  margin: 20px;
+}
+
+.Meaning {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Meaning h3,
+.Meaning li {
+  text-align: left;
+}
+
+footer {
+  font-size: x-small;
+}
+
+input[type="search"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

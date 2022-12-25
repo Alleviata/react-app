@@ -8,7 +8,9 @@ function App() {
         <h1>Dictionary</h1>
       </header>
       <Dictionary />
-      <footer className="text-center">Coded by Yuliya</footer>
+      <footer className="text-center">
+        Coded by <a href="https://github.com/Alleviata/react-app">Yuliya</a>
+      </footer>
     </div>
   );
 }

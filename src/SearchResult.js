@@ -6,6 +6,7 @@ export default function SearchReasult(props) {
     return (
       <div className="result">
         <h2>{props.result.word}</h2>
+
         {props.result.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
@@ -16,6 +17,8 @@ export default function SearchReasult(props) {
       </div>
     );
   } else {
-    return <div className="result">Word not found</div>;
+    return (
+      <div className="result">Type an existing word to see its details</div>
+    );
   }
 }
