@@ -7,8 +7,8 @@ function App() {
       <header className="App-header">
         <h1>Dictionary</h1>
       </header>
-      <Dictionary />
-      <footer className="text-center">
+      <Dictionary word="ocean" />
+      <footer>
         Coded by <a href="https://github.com/Alleviata/react-app">Yuliya</a>
       </footer>
     </div>

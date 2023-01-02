@@ -25,7 +25,7 @@ export default function SearchReasult(props) {
     );
   } else {
     return (
-      <div className="result">Type an existing word to see its details</div>
+      <div className="noresult">Type an existing word to see its details.</div>
     );
   }
 }

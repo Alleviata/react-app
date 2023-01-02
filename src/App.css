@@ -1,36 +1,82 @@
-.App {
-  text-align: center;
-}
-
 .App-header {
   font-size: calc(10px + 2vmin);
   color: #282c34;
 }
 
 h1 {
-  margin: 20px;
+  padding: 20px;
 }
 
 .Meaning {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .Meaning h3,
-.Meaning li {
+.Meaning li,
+.Synonyms {
   text-align: left;
 }
 
 footer {
   font-size: x-small;
+  padding: 10%;
+  text-align: left;
 }
 
 input[type="search"] {
   width: 50%;
-  padding: 12px 20px;
+  padding: 12px 10px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  font-size: larger;
+  line-height: 1.5;
+}
+.App {
+  height: 100% !important;
+  background: linear-gradient(
+    0deg,
+    rgba(175, 241, 218, 1) 0%,
+    rgba(249, 234, 143, 1) 100%
+  );
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.Meaning section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.noresult {
+  height: 100vh;
+}
+
+h2 {
+  line-height: 2;
+}
+
+.Phonetic a {
+  border: 1px solid rgb(68, 169, 134);
+  text-decoration: none;
+  padding: 10px 12px 15px 12px;
+  border-radius: 30px;
+  transition: all 150ms ease-in-out;
+  background: rgb(68, 169, 134);
+  line-height: 55px;
+  margin: 10px;
+  color: white;
+}
+
+.Phonetic a:hover {
+  color: rgb(68, 169, 134);
+  background: white;
+  cursor: pointer;
 }
