@@ -3,6 +3,7 @@ import Meaning from "./Meaning";
 
 export default function SearchReasult(props) {
   if (props.result) {
+    console.log(props.result);
     return (
       <div className="result">
         <h2>{props.result.word}</h2>
