@@ -1,0 +1,13 @@
+.Photos img {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.Photos {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  background: white;
+  max-width: 900px;
+}
